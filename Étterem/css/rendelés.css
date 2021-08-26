@@ -1,0 +1,22 @@
+htl{
+    background-color: rgb(44,59,77);
+}
+
+legend{
+    background-color:white;
+    color: black;
+}
+
+#Személyes{
+    width: 50%;
+    margin-left: 25%;
+}
+
+#Rendelés{
+    width: 50%;
+    margin-left: 25%;
+}
+
+#button{
+    margin-left: 25%;
+}

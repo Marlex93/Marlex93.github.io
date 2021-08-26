@@ -1,0 +1,38 @@
+html{
+    background-color: rgb(44,59,77);
+    color: white;
+}
+
+a {
+    font-size: 25px;
+    color: rgb(255, 255, 51);
+}
+
+.Főoldal{
+    margin-left: 12.5%;
+    margin-right: 12.5%;    
+}
+
+.Rólunk{
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+.Elérhetőség{
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+.Rendelés{
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+h2{
+    text-align: center;
+}
+
+.teendők{
+    adjust
+    margin-left: 25%;
+}

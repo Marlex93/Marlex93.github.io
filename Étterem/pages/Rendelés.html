@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rendelés</title>
+    <link rel="stylesheet" href="/css/rendelés.css">
+</head>
+<body>
+    <div class="pages">
+        <a href="/pages/About.html">  Rólunk  </a> 
+        <a href="/pages/Burgerek.html">  Burgerek  </a>
+        <a href="/pages/Elérhetőségek.html">  Elérhetőségek  </a>
+        <a href="/pages/Rendelés.html">  Rendelés  </a>
+      </div> 
+    <form>
+        <fieldset id="Személyes">
+            <legend>Személyes adatok:</legend>
+                <div>
+                    <label for="name">*Név: </label>
+                    <input id="name" name="name" type="text" required>
+                </div> <br>
+
+                <div>
+                      <label for="email">*Email cím: </label>
+                      <input id="email" name="email" type="text" required>
+                </div> <br>
+
+                <div>
+                     <label for="adress">*Cím: </label>
+                      <input id="adress" name="adress" type="text" required>
+                </div><br>
+
+                <div>
+                      <label for="comment">Megjegyzés: </label>
+                      <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+                 </div><br>
+        </fieldset> 
+    </form>
+
+    <form>
+        <fieldset id="Rendelés">
+            <legend>Rendelés adatok:</legend>
+                <div>
+                    <input type="radio">
+                    <label for="extra">Extra hús</label>
+                </div>
+
+                <div>
+                    <input type="radio">
+                    <label for="extra">Extra sajt</label>
+                </div>
+
+                <div>
+                    <input type="radio">
+                    <label for="extra">Extra szósz</label>
+                </div>
+
+                <div>
+                    <label for="sauce">Szósz:</label>
+                    <select name="sauce" id="sauce">
+                        <option value="0">Ketchup, mustár,majonéz</option>
+                        <option value="100">Speciális szósz</option>
+                        <option value="200">Deluxe szósz</option>
+                    </select>
+                </div>
+
+        </fieldset>
+    </form>
+
+
+                <div id="button">
+                    <label for="összeg">A Rendelés összege: </label> 
+                     <br>
+                    <button class="btn btn-danger" >Megrendelem a kiválaszott terméket!  </button>
+                </div>
+
+</body>
+</html>
