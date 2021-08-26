@@ -1,0 +1,44 @@
+html{
+    background-color: rgb(44,59,77);
+    color: white;
+}
+
+a {
+    font-size: 25px;
+    color: rgb(255, 255, 51);   
+}
+
+.Főoldal{
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin: 5px solid black;
+}
+
+.Rólunk{
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+.Elérhetőség{
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+h1{
+    text-align: center;
+    text-size-adjust: 120px;
+}
+
+.hero{
+    width: 100px;
+    margin-right: 20px;
+    position: fixed right;
+    style:"float";
+}
+
+.img-div{ 
+    background-color: lightblue;
+    color: black;
+    font-size: 30px;
+    margin-left: 12.5%;
+}
